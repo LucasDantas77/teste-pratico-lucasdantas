@@ -1,0 +1,139 @@
+.top-page {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 15px;
+    background-color: var(--color-blue);
+}
+
+.top-page>p {
+    color: var(--white);
+    font-size: 0.7rem;
+    margin: 4px 15px 4px 0;
+
+}
+
+.header-container {
+    width: 100%;
+    background-color: var(--white);
+}
+
+.header-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.header-section-image-logo {
+    width: 20%;
+    max-width: 100px;
+    height: 70px;
+    margin-bottom: 8px;
+}
+
+.header-section-infos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 82px;
+}
+
+.header-section-infos>button {
+    background-color: var(--white);
+    padding: 5px;
+    color: var(--light-grey);
+    width: 80px;
+}
+
+.section-slides-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-grey2);
+}
+
+.section-slides {
+    width: 90%;
+    max-width: 800px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 40px;
+
+    align-items: center;
+    position: absolute;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.navigation-bar {
+    position: absolute;
+    bottom: 20px;
+
+    display: flex;
+    gap: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn-manual {
+    border: 2px solid var(--white);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-manual:hover {
+    background-color: var(--white);
+    transition: 0.4s;
+}
+
+.slide {
+    transition: 0.5s;
+    width: 25%;
+}
+
+.slide>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -25%;
+}
+
+@media(min-width:768px) {
+    .top-page>p {
+        margin-right: 108px;
+    }
+
+    .header-section-infos {
+        flex-direction: row;
+    }
+
+    .header-section-image-logo {
+        height: 90px;
+        margin-right: 200px;
+    }
+
+    .section-slides-container {
+        height: 580px;
+    }
+
+    .section-slides {
+        height: 500px;
+    }
+}
