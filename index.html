@@ -8,27 +8,39 @@
     <link rel="stylesheet" href="./src/style/globalstyles.css" />
     <link rel="stylesheet" href="./src/style/boxes.css" />
     <link rel="stylesheet" href="./src/style/footer.css" />
+    <link rel="stylesheet" href="./src/style/menu.css" />
+    <script type="module" src="./src/script/index.js"></script>
     <title>Document</title>
   </head>
   <body>
     <main>
-      <nav class="top-page">
+      <header class="top-page">
         <p>11 1234-1234 11 1234-1234</p>
-      </nav>
+      </header>
       <header class="header-container">
-        <section class="header-section-container">
+        <nav class="nav-section-container">
           <img
-            class="header-section-image-logo"
+            class="header-nav-image-logo"
             src="./src/assets/dev7logo.png"
             alt="logo imagem"
           />
-          <section class="header-section-infos">
-            <button>Home</button>
-            <button>Empresa</button>
-            <button>Clientes</button>
-            <button>Contato</button>
-          </section>
-        </section>
+          <ul class="header-ul-infos">
+            <li><button>Home</button></li>
+            <li><button>Empresa</button></li>
+            <li><button>Clientes</button></li>
+            <li><button>Contato</button></li>
+          </ul>
+
+          <button class="mobile-menu-icon" id="btn-menu">
+            <img src="./src/assets/burger-bar.png" alt="" />
+          </button>
+        </nav>
+        <ul class="mobile-menu">
+          <li><button>Home</button></li>
+          <li><button>Empresa</button></li>
+          <li><button>Clientes</button></li>
+          <li><button>Contato</button></li>
+        </ul>
       </header>
       <section class="section-slides-container">
         <section class="section-slides">
