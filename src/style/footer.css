@@ -10,6 +10,15 @@
     background-color: var(--dark-grey);
 }
 
+.infos-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.infos-footer>button> {
+    border: none;
+}
+
 .infos-footer>button>a {
     background-color: var(--dark-grey);
     border: none;
