@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style/style.css" />
+    <link rel="stylesheet" href="./src/style/slide.css" />
     <link rel="stylesheet" href="./src/style/globalstyles.css" />
+    <link rel="stylesheet" href="./src/style/boxes.css" />
+    <link rel="stylesheet" href="./src/style/footer.css" />
     <title>Document</title>
   </head>
   <body>
@@ -13,83 +16,92 @@
         <p>11 1234-1234 11 1234-1234</p>
       </nav>
       <header class="header-container">
-       <section class="header-section-container">
-        <img
-          class="header-section-image-logo"
-          src="./src/assets/dev7logo.png"
-          alt="logo imagem"
-        />
-        <section class="header-section-infos">
-          <button>Home</button>
-          <button>Empresa</button>
-          <button>Clientes</button>
-          <button>Contato</button>
-        </section>
-      </header>
-       </section>
-        <section class="section-slides-container">
-          <section class="section-slides">
-            <div class="slides">
-             <input type="radio" name="btn-radio" id="radio1">
-             <input type="radio" name="btn-radio" id="radio2">
-             <div class="slide first">
-              <img src="./src/assets/slide-predio.jpg" alt="imagem predio">
-             </div>
-             <div class="slide">
-              <img src="./src/assets/slide-empresarial.webp" alt="imagem empresarial">
-             </div>
-             <div class="navigation-bar">
-              <label class="btn-manual" for="radio1"></label>
-              <label class="btn-manual" for="radio2"></label>
-             </div>
-            </div>
+        <section class="header-section-container">
+          <img
+            class="header-section-image-logo"
+            src="./src/assets/dev7logo.png"
+            alt="logo imagem"
+          />
+          <section class="header-section-infos">
+            <button>Home</button>
+            <button>Empresa</button>
+            <button>Clientes</button>
+            <button>Contato</button>
           </section>
         </section>
-     
-      <section>
-        <section>
-          <h2>Teste de Html e Css</h2>
+      </header>
+      <section class="section-slides-container">
+        <section class="section-slides">
+          <div class="slides">
+            <input type="radio" name="btn-radio" id="radio1" />
+            <input type="radio" name="btn-radio" id="radio2" />
+            <div class="slide first">
+              <img src="./src/assets/slide-predio.jpg" alt="imagem predio" />
+            </div>
+            <div class="slide">
+              <img
+                src="./src/assets/slide-empresarial.webp"
+                alt="imagem empresarial"
+              />
+            </div>
+            <div class="navigation-bar">
+              <label class="btn-manual" for="radio1"></label>
+              <label class="btn-manual" for="radio2"></label>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="section-desc-container">
+        <section class="section-desc">
+          <h2 class="subtitulo">TESTE DE HTML E CSS</h2>
           <p>Quesitos de avaliação</p>
-          <ul>
-            <li>Organizção do codigo (quanto mais limpo melhor);</li>
-            <li>Nível de detalhismo(quanto mais identico melhor);</li>
+          <ul class="section-ul-desc">
+            <li>Organização do código (quanto mais limpo melhor);</li>
+            <li>Nível de detalhismo (quanto mais identico melhor);</li>
             <li>
-              Tempo de desenvolvimento(seja sicero ao enviar o tempo gasto);
+              Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);
             </li>
           </ul>
           <p>
-            Ao finalizar o teste envie o codigo zipado para o email com o tempo
-            gasto e seu cv anexado.
+            Ao finalizar o teste envie o código zipado para o email com o tempo
+            gasto e seu CV anexado.
           </p>
           <p>Obrigado e Boa sorte!</p>
         </section>
-        <img src="" alt="" />
+        <img
+          src="./src/assets/organizacao-empresa-1024x614.webp"
+          alt="imagem de organização empresarial"
+        />
       </section>
-      <ul>
-        <li>
-          <img src="" alt="" />
-          <p>link e descriçao</p>
-        </li>
-        <li>
-          <img src="" alt="" />
-          <p>link e descriçao</p>
-        </li>
-        <li>
-          <img src="" alt="" />
-          <p>link e descriçao</p>
-        </li>
-        <li>
-          <img src="" alt="" />
-          <p>link e descriçao</p>
-        </li>
-      </ul>
-      <footer>
-        <section class="section-infos">
+      <section class="boxes-container">
+        <h2 class="subtitulo">BOXES DE DESTAQUES</h2>
+        <ul class="boxes-ul-container">
+          <li>
+            <img src="src/assets/predio.jpg" alt="" />
+            <a href="">nosso grupo</a>
+          </li>
+          <li>
+            <img src="src/assets/predio.jpg" alt="" />
+            <a href="">nosso grupo</a>
+          </li>
+          <li>
+            <img src="src/assets/predio.jpg" alt="" />
+            <a href="">nosso grupo</a>
+          </li>
+          <li>
+            <img src="src/assets/predio.jpg" alt="" />
+            <a href="">nosso grupo</a>
+          </li>
+        </ul>
+      </section>
+      <footer class="footer-container">
+        <section class="infos-footer">
           <button>Home</button>
           <button>Empresa</button>
           <button>Clientes</button>
           <button>Contato</button>
         </section>
+        <p>Rodape</p>
       </footer>
     </main>
   </body>
