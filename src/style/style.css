@@ -114,6 +114,7 @@
     width: 300px;
 }
 
+
 @media(min-width:768px) {
     .top-page>p {
         margin-right: 182px;

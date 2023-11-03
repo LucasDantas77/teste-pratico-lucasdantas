@@ -26,3 +26,12 @@ input {
     --light-grey: #A9A9A9;
     --light-grey2: #D3D3D3;
 }
+
+.dark-mode:root {
+    --white: #000;
+    --color-blue: #00008B;
+    --black: #fff;
+    --dark-grey: #454444;
+    --light-grey: #A9A9A9;
+    --light-grey2: #D3D3D3;
+}
