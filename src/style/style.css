@@ -73,7 +73,7 @@
 }
 
 .section-desc-container>img {
-    width: 100%;
+    width: 90%;
     max-width: 370px;
 }
 
@@ -140,5 +140,11 @@
 
     .section-desc {
         width: 590px;
+    }
+}
+
+@media(max-width:768px) {
+    .section-desc-container>img {
+        margin: auto;
     }
 }
