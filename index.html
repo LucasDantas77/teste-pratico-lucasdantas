@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/style/boxes.css" />
     <link rel="stylesheet" href="./src/style/footer.css" />
     <link rel="stylesheet" href="./src/style/menu.css" />
+    <link rel="stylesheet" href="./src/style/submenus.css" />
     <script type="module" src="./src/script/index.js"></script>
     <title>Document</title>
   </head>
@@ -25,10 +26,62 @@
             alt="logo imagem"
           />
           <ul class="header-ul-infos">
-            <li><button>Home</button></li>
-            <li><button>Empresa</button></li>
-            <li><button>Clientes</button></li>
-            <li><button>Contato</button></li>
+            <li>
+              <button>Home</button>
+            </li>
+            <li class="dropdown">
+              <button>Empresa</button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">SUBMENU 1</a>
+                  <ul class="dropdown-sub">
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">SUBMENU 1</a>
+                  <ul class="dropdown-sub">
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">SUBMENU 1</a>
+                  <ul class="dropdown-sub">
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                    <li>
+                      <a href="#">SUBMENU 2</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button>Clientes</button>
+            </li>
+            <li>
+              <button>Contato</button>
+            </li>
           </ul>
 
           <button class="mobile-menu-icon" id="btn-menu">
@@ -36,10 +89,62 @@
           </button>
         </nav>
         <ul class="mobile-menu">
-          <li><button>Home</button></li>
-          <li><button>Empresa</button></li>
-          <li><button>Clientes</button></li>
-          <li><button>Contato</button></li>
+          <li>
+            <button>Home</button>
+          </li>
+          <li class="dropdown">
+            <button>Empresa</button>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">SUBMENU 1</a>
+                <ul class="dropdown-sub">
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">SUBMENU 1</a>
+                <ul class="dropdown-sub">
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">SUBMENU 1</a>
+                <ul class="dropdown-sub">
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                  <li>
+                    <a href="#">SUBMENU 2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <button>Clientes</button>
+          </li>
+          <li>
+            <button>Contato</button>
+          </li>
         </ul>
       </header>
       <section class="section-slides-container">
@@ -114,10 +219,10 @@
       </section>
       <footer class="footer-container">
         <section class="infos-footer">
-          <button>Home</button>
-          <button>Empresa</button>
-          <button>Clientes</button>
-          <button>Contato</button>
+          <button><a href="">Home</a></button>
+          <button><a href="">Empresas</a></button>
+          <button><a href="">Clientes</a></button>
+          <button><a href="">Contatos</a></button>
         </section>
         <p>Rodape</p>
       </footer>

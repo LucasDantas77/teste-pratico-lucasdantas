@@ -10,14 +10,15 @@
     background-color: var(--dark-grey);
 }
 
-.infos-footer>button {
+.infos-footer>button>a {
     background-color: var(--dark-grey);
     border: none;
     color: var(--light-grey);
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
 }
 
-.footer-container>p{
+.footer-container>p {
     color: var(--white);
 }
