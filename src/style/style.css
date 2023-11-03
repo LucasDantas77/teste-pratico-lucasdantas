@@ -25,13 +25,13 @@
     background-color: var(--white);
 }
 
-.nav-section-container {
+.nav-header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 85%;
+    width: 100%;
     max-width: 1500px;
-    margin-left: 20px;
+    margin: auto;
 }
 
 .header-nav-image-logo {
@@ -44,15 +44,15 @@
 .header-ul-infos {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    max-width: 152px;
+    width: 90%;
+    max-width: 300px;
     list-style: none;
     display: none;
 }
 
 .header-ul-infos>li {
     width: 100%;
-    max-width: 70px;
+    max-width: 118px;
 }
 
 .header-ul-infos>li>button {
@@ -89,7 +89,7 @@
 .section-desc>p {
     font-size: 12px;
     color: var(--light-grey);
-    width: 300px;
+    width: 270px;
 }
 
 .section-ul-desc {
